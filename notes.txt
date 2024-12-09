@@ -235,3 +235,94 @@ Example:
 <input type="submit" value="Submit the form">
 
 Part: 4
+
+CSS - Cascading Style Sheets
+
+Stylesheet: A list of CSS rules and rule sets is called a stylesheet.
+
+Example:
+div {  
+    color: red;  
+    margin: 20px;  
+}  
+
+li {  
+    color: blue;  
+}  
+Selectors: div and li
+           Selectors target the elements we want to style.
+
+Declarations: color: red; and margin: 20px;
+
+   Property Name: color
+   Value: red
+   Style Tag Usage:
+   Used under the <head> section:
+      Internal CSS
+      External CSS
+      Inline CSS
+
+External CSS Example:
+
+   <link rel="stylesheet" href="path-to-css-file">
+   Internal CSS Example:
+   <style>
+      h1 {  
+         color: orange;  
+         font-size: 20px;  
+      }  
+   </style>
+
+   Inline CSS Example:
+   <h1 style="color: orange;">Hello</h1>
+
+   External CSS Full Example:
+   h1 {  
+      color: orange;  
+      background-color: slategray;  
+      font-size: 20px;  
+      text-decoration: line-through;  
+      font-family: Arial;  
+      text-align: center;  
+      line-height: 30px;  
+      letter-spacing: 3px;  
+      column-count: 3;  
+      column-gap: 60px;  
+   }  
+
+   ul {  
+      border-width: 4px;  
+      border-style: solid;  
+      border-color: crimson;  
+   }  
+
+   li {  
+      list-style-type: disc;  
+      text-shadow: 2px 2px lightgray;  
+   }
+
+   Shorthand Properties:
+   border: 4px solid crimson;
+   Combines width, style, and color.
+
+   Hex Codes:
+
+   Start with #
+   Numbers: 0-9
+   Letters: A-F
+   Examples:
+
+   Darkest Shade: #000000 (Black)
+   Brightest Shade: #FFFFFF (White)
+
+   Elements:
+   Inline Elements: span, a, strong, img
+   Block-Level Elements: p, div
+
+   Margin: The space outside an element's border, creating distance between elements.
+   Padding: The space between an element's content and its border.
+   Inline Elements: Elements that do not start on a new line and only occupy as much width as necessary.
+   Block-Level Elements: Elements that start on a new line and take up the full width available.
+
+   Note: Block-Level Elements can have the margin all the way around the element.
+   But inline elements can only have the margin to the left and right of the elements.
