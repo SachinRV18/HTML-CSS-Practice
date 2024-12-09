@@ -1,0 +1,49 @@
+Start Date: 09/12/2024
+Part: 1
+
+HTML: Hypertext Markup Language
+    We use HTML to structure the content on a webpage.
+    The file extension is .html.
+
+CSS: Cascading Style Sheets
+    We use CSS to style our website for better visibility.
+    The file extension is .css.
+
+    Note: index.html [Default homepage file name]
+    When we navigate to a website, for example, xyz.com, the browser looks in the root directory for an index.html file. If it exists, the browser serves it.
+
+HTML Tags:
+    1. DOCTYPE
+        This defines the document as an HTML5 document and tells the browser to render it correctly.
+        Syntax: <!DOCTYPE html>
+        This is the only tag that starts with an exclamation mark (< : angle bracket).
+
+    2. html tag
+        Syntax: <html>...........</html>
+        This is the root tag for an HTML document.
+
+    3. head tag
+        Syntax: <head>...........</head>
+        It contains additional information about the website, like metadata or a title that appears at the top of the browser.
+        Note: It doesn't render anything in the browser.
+
+    4. body tag
+        Syntax: <body>...........</body>
+        It renders the content in the browser.
+
+Running HTML Code:
+1. File Protocol
+    This opens the file and contains the full path of the file in the URL.
+
+2. Local Development Server
+    It helps to view the website using the HTTP protocol.
+
+3. HTTP Protocol:
+    HTTP is the protocol used to communicate with servers to view websites.
+
+    The main advantage of using a Local Development Server is that we don't need to reload the page each time, which saves time.
+    For example, 127.0.0.1 is the local host.
+
+4. Inspect
+    Inspect helps preview the HTML file in a browser.
+    It is also called the Google Chrome Developer Tools panel.
