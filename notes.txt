@@ -145,3 +145,93 @@ Example: <p style="color: red;">Style me :)</p>
 Comments: HTML comments are used to make the code more readable and to add notes for developers.
 Example: <!-- This is a comment -->
 
+
+Part: 3
+
+HTML Forms
+
+The <form> element is used to collect information from the user via form fields.
+
+<form action=""> </form>
+
+- action attribute: Tells the browser what to do when the user submits the form. The value of the action attribute specifies the URL where the form data will be sent for processing.
+- Forms are used to collect user input, and the form fields inside can contain different types of inputs.
+
+Input Fields
+
+<input type="text" id="username">
+
+- type attribute: Defines the type of the input field (e.g., text, email, password).
+- id attribute: Serves as a unique identifier for the input field.
+  Note: The id attribute should be unique within the HTML document.
+
+You can also use hooks to target specific elements for styling (CSS) or functionality (JavaScript).
+
+<label for=""></label>
+
+- label tag: Used to specify the label for a particular input field.
+
+Example:
+
+<form>
+  <label for="username">Enter username:</label>
+  <input type="text" name="username" id="username">
+</form>
+
+Different Input Types
+
+- type="email": Used for email input fields.
+- type="password": Used for password input fields (the text is hidden).
+- type="radio": Used for radio buttons, which allow the user to select one option from a group.
+
+Name Attribute
+
+The name attribute is similar to the id attribute but is used to identify form fields in server-side processing (e.g., PHP). The name attribute is important for grouping different parts of the form together.
+
+Example: Radio Button
+
+<form>
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+</form>
+
+Select (Dropdown)
+
+- The <select> tag is used to create a dropdown list.
+
+Example:
+
+<label for="questions">Security questions:</label>
+<select name="questions" id="questions">
+  <option value="q1">What is your favorite number?</option>
+  <option value="q2">What is your favorite color?</option>
+  <option value="q3">What is your favorite place?</option>
+  <option value="q4">What is your favorite food?</option>
+</select>
+
+Textarea
+
+- The <textarea> tag provides a multi-line text field for users to enter longer text.
+
+Placeholder Attribute
+
+- The placeholder attribute can be used to display a hint inside an input field before the user types.
+
+Example:
+
+<input type="text" placeholder="Enter your name">
+
+Required Attribute
+
+- The required attribute is used to make a form field mandatory to fill out before submitting the form.
+
+Submit Button
+
+- The submit button is used to submit the form.
+
+Example:
+
+<input type="submit" value="Submit the form">
+
+Part: 4
