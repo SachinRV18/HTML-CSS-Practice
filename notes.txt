@@ -47,3 +47,101 @@ Running HTML Code:
 4. Inspect
     Inspect helps preview the HTML file in a browser.
     It is also called the Google Chrome Developer Tools panel.
+
+Basic HTML structure
+<!-- Basic HTML Structure -->
+
+<!-- <!DOCTYPE html> 
+<html>
+  <head>
+    <title>HTML-CSS Learnings</title>
+  </head>
+  <body>
+    <p>THis is a sample text</p>
+  </body>
+</html> -->
+
+
+Part: 2
+
+Basic Elements in HTML (with content)
+
+1. Paragraph tag (<p>):
+   Used to add a paragraph of text.
+
+2. Strong tag (<strong>):
+   Makes text important or bold.
+
+3. Em tag (<em>):
+   Used to emphasize text.
+
+4. Small tag (<small>):
+   Makes the text smaller.
+
+5. Heading tags (<h1>, <h2>, <h3>, <h4>, <h5>, <h6>):
+   The larger the number, the less important the heading.
+   - <h1> is the most important heading tag.
+   - <h6> is the least important heading tag.
+
+6. Unordered list (<ul>):
+   Contains list items (<li>) as nested tags.
+   Used for a bulleted list.
+
+7. Ordered list (<ol>):
+   Contains list items (<li>) as nested tags.
+   Used for a numbered list.
+
+8. Division tag (<div>):
+   Used to group together HTML elements into a single container.
+
+9. Span tag (<span>):
+   The <span> tag is an inline container used to group a small portion of text or elements.
+   It is often used to apply styles or functionality to a specific part of the content.
+
+
+Hook: A "hook" is a target in HTML where we can attach CSS styles or JavaScript functionality.
+Example: <span class="highlight">
+
+
+Some Elements with Only One Tag (No Content)
+
+1. Line Break (<br>):
+   Adds a line break.
+
+2. Horizontal Rule (<hr>):
+   Creates a horizontal line.
+
+3. Image tag (<img>):
+   Used to display an image.
+
+Attributes: Attributes provide additional information about an element.
+Example: <img src=".....path.....">
+- Absolute Path: When the file is not placed in the root folder, we use an absolute path.
+  Example: image/file1.jpg
+
+  Note: If using a local server, add a forward slash (/) to represent the root of the project.
+  Example: /image/file1.jpg
+
+- Relative Path: Specifies the file location relative to the current folder.
+- Alt Attribute: Provides a text description of the image (for accessibility or when the image fails to load).
+
+Anchor tag (<a>)
+The anchor tag is used to create links or navigate to other pages within a website.
+- The href attribute is used to specify the URL or target page.
+  Example: <a href="about.html">This is the About page</a>
+
+Blockquote tag (<blockquote>)
+
+The <blockquote> tag is used to define a block of text that is a quotation from another source.
+- The cite attribute is used to reference the source of the quotation.
+  Example:
+  <blockquote cite="https://www.example.com">
+    This contains a link to the external page.
+  </blockquote>
+
+Style Attribute: The style attribute is used to apply CSS styles directly to HTML elements.
+Example: <p style="color: red;">Style me :)</p>
+
+Comments: HTML comments are used to make the code more readable and to add notes for developers.
+Example: <!-- This is a comment -->
+
