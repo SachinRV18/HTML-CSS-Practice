@@ -80,7 +80,7 @@ p {
   color: tomato;     High precedence
 } */
 
-p {
+/* p {
   border: inherit;
   margin: inherit;
-}
+} */
