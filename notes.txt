@@ -494,8 +494,6 @@ Example:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic Tags Example</title>
   </head>
   <body>
@@ -525,6 +523,44 @@ Example:
   </body>
 </html>
 
+
+Part - 7
+
+Chrome developer Tools
+Copy Selector:
+   Copy the CSS selector of an element for precise targeting.
+
+Edit as HTML:
+   Allows editing the HTML structure of an element directly in the browser.
+
+Scroll into View:
+   Brings the selected element into the viewport by scrolling the page.
+
+Hide Element:
+   Temporarily hides an element from the page.
+
+Delete Element:
+   Removes an element from the DOM temporarily.
+
+Edit Attribute:
+   Edit attributes like id, class, or src of an element.
+
+Add Attribute:
+   Add new attributes to an element.
+
+Applying Styles
+Crossed out:
+   When a CSS rule is overridden, the previous rule appears crossed out.
+
+Source Tab
+   It gives the tree of different files and folders of our project.
+   To save the edits, we need to use the filesystem options in tools.
+
+Console
+   Used for JavaScript.
+
+Device Preview
+   For different layouts.
 
 
 
