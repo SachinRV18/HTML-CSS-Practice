@@ -1,0 +1,86 @@
+/* It contains a css for Part - 5 tutorial */
+
+/* .error {
+  background-color: bisque;
+} */
+/* p.error {
+  color: lightblue;
+}
+
+p.error.feedback {
+  border: 1px dotted tomato;
+}
+
+#content {
+  background-color: slategray;
+} */
+
+/* div p {
+  color: #b87f46;
+}     */
+
+/* div .error {
+  color: #b87f46;
+} */
+/* Descendent selectorc */
+/* 
+div.error {
+  color: #b87f46;
+} */
+
+/* attribute selector */
+/* a[href] {
+  background-color: aqua;
+} */
+
+/* a[href="https://www.google.com"]
+{
+  background-color: #3dd13d;
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+/* 
+a[href*=".com"] {
+  background-color: #3dd13d;
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+href includes .com the style will be applicable */
+
+/* a[href$=".com"] {
+  background-color: #3dd13d;
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+/* $ used ends with .com */
+
+/* Inheritance */
+/* div {
+  color: blueviolet;
+  border: 2px solid chocolate;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+div p {
+  color: rgba(12, 14, 170, 0.274);    more specifically defined so it has now high precedence.
+}
+p {
+  color: rgb(121, 77, 163);
+} */
+
+/* p {
+  color: tomato;     High precedence
+} */
+
+p {
+  border: inherit;
+  margin: inherit;
+}

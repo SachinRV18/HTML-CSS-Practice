@@ -326,3 +326,161 @@ External CSS Example:
 
    Note: Block-Level Elements can have the margin all the way around the element.
    But inline elements can only have the margin to the left and right of the elements.
+
+   user agent stylesheet: browser style sheets
+
+Part - 5
+
+HTML and CSS Selectors
+Class Attribute: The class attribute in HTML provides a hook for CSS and is used as a selector to style multiple elements sharing the same class.
+
+Example:
+   HTML: <p class="success feedback"></p>
+   CSS:  .error {
+   color: red;
+   }
+   To style specific elements with the same class, use element.classname.
+
+Example:
+   CSS: p.error {
+   color: red;
+   }
+
+ID Attribute
+   The id attribute must be unique and can only be used once on a page. It is commonly used to style a single element.
+
+Example:
+   HTML: <div id="content"></div>
+   CSS: #content {
+   color: blue;
+   }
+
+Descendant Selector
+   This targets elements nested inside others.
+
+Example:
+   CSS: div p a {
+   color: red;
+   }
+   This CSS targets the <a> tag inside a <p> tag, which is inside a <div>.
+
+Descendant Selector
+   This targets elements nested inside others.
+
+Example:
+   CSS: div p a {
+   color: red;
+   }
+   This CSS targets the <a> tag inside a <p> tag, which is inside a <div>.
+
+Attribute Selector
+   Attribute selectors target elements based on their attributes.
+
+Example 1:
+   Select all anchor tags with the href attribute:
+   CSS: a[href] {
+   background-color: aqua;
+   }
+
+Example 2:
+   Select anchor tags with a specific href value:
+
+   a[href="https://www.google.com"] {
+   background-color: #3dd13d;
+   color: blueviolet;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+   }
+
+Example 3:
+   Select anchor tags where href contains .com:
+   a[href*=".com"] {
+   background-color: #3dd13d;
+   }
+
+Example 4:
+   Select anchor tags where href ends with .com:
+
+   a[href$=".com"] {
+   color: navy;
+   }
+
+Inheritance
+   HTML elements inherit CSS properties applied to their parent elements.
+
+Example:
+   HTML: <div>
+   <p>Hello, Sachin</p>
+   </div>
+   CSS: div {
+   color: red;
+   }
+
+   In this example, the <p> tag inherits the color property from its parent <div>.
+
+Overriding Inheritance:
+   Specific CSS rules override inherited styles.
+
+Example:
+   HTML: <div id="content">
+      <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      </div>
+   CSS: div {
+      color: blueviolet;
+      border: 2px solid chocolate;
+      font-weight: bold;
+      text-transform: uppercase;
+      }
+
+   p {
+      border: inherit;
+      margin: inherit;
+      }
+
+Specificity
+   CSS specificity determines which styles take precedence. Rules defined lower in the stylesheet or more specifically have higher priority.
+
+Example 1:
+   p {
+   color: rgb(121, 77, 163);
+   }
+
+   p {
+   color: tomato; /* Higher precedence */
+   }
+
+Example 2:
+   div p {
+   color: rgba(12, 14, 170, 0.274); /* More specific, higher precedence */
+   }
+
+   p {
+   color: rgb(121, 77, 163);
+   }
+
+   p {
+   color: tomato; /* Lower precedence than div p 
+   }
+
+Quick Note:
+   Use . for classes.
+   Use # for IDs.
+   Use the tag name for element selectors.
+
+   More about the cascade - https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade
+
+
+
+
+
+
+
+
+
+
+
+
+
