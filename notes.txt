@@ -593,6 +593,31 @@ Example:
    content: "...";
    }
 
+Part - 10: 
+
+Responsive Design
+ Responsive design ensures that a website’s layout adapts to different screen sizes and devices.
+
+Viewport: To make a web page responsive, include the following meta tag in the <head> section:
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Media Queries: Media queries allow styling of elements based on specific viewport dimensions.
+Example: @media (max-width: 768px) {
+   body {
+      font-size: 14px;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+   body {
+      font-size: 16px;
+   }
+}
+
+Mobile-First Approach:
+	Design for smaller screens first and scale up for larger devices.
+	Start with base styles for mobile devices and use media queries to add styles for larger screens.
+
 
 
 

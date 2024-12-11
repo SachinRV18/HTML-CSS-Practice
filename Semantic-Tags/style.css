@@ -160,7 +160,7 @@ form input:valid {
 }
 
 nav ul li:first-child {
-  border: 3px solid aliceblue;
+  border: 3px solid #f0f8ff;
 }
 
 article p::first-line {
@@ -182,4 +182,59 @@ section.join p::selection {
 
 p::after {
   content: "...";
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 1400px) {
+  .banner .welcome h2 {
+    font-size: 60px;
+  }
+
+  nav li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .banner .welcome h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner .welcome {
+    position: relative;
+  }
+
+  .banner .welcome br {
+    display: none;
+  }
+  .banner .welcome h2 {
+    font-size: 25px;
+  }
+  .banner .welcome h2 {
+    font-size: 1em;
+  }
+
+  .images li {
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  nav li {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+  }
+  header {
+    position: relative;
+  }
+  nav {
+    top: 0;
+  }
 }
