@@ -99,10 +99,6 @@ article p {
   line-height: 2em;
   color: #4b4b4b;
 }
-article p::first-line {
-  font-weight: bold;
-  font-size: 1.2em;
-}
 .images {
   text-align: center;
   margin: 80px 0;
@@ -115,9 +111,7 @@ article p::first-line {
   margin: 20px 5%;
   position: relative;
 }
-.images li:hover {
-  top: -4px;
-}
+
 .images li img {
   max-width: 100%;
 }
@@ -137,16 +131,55 @@ form input {
   border-radius: 28px;
   border: 4px solid white;
 }
-form input:focus {
-  border: 4px dashed #4b4b4b;
-  outline: none;
-}
-form input:valid {
-  border: 4px solid #71d300;
-}
+
 footer {
   background: #f63232;
   color: white;
   padding: 10px;
   text-align: center;
+}
+
+/* psudo class */
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.images li:hover {
+  top: -4px;
+}
+
+form input:focus {
+  border: 4px dashed #4b4b4b;
+  outline: none;
+}
+
+/* form selection */
+
+form input:valid {
+  border: 4px solid #71d300;
+}
+
+nav ul li:first-child {
+  border: 3px solid aliceblue;
+}
+
+article p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* section.join p::first-letter{
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+  color: #4b4b4b;
+} */
+
+section.join p::selection {
+  background: #f63232;
+  color: white;
+}
+
+p::after {
+  content: "...";
 }
