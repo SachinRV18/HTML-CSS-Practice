@@ -12,6 +12,19 @@ CSS: Cascading Style Sheets
     Note: index.html [Default homepage file name]
     When we navigate to a website, for example, xyz.com, the browser looks in the root directory for an index.html file. If it exists, the browser serves it.
 
+Quirks Mode: 
+A browser behaves in a way that's compatible with older, non-standard HTML (from the early web days).
+Quirks mode can cause:
+   Inconsistent layouts.
+   Incorrect rendering of CSS styles.
+   Problems with JavaScript behavior.
+
+Standards Mode (with <!DOCTYPE>)
+   The browser follows the latest web standards.
+   Your page behaves consistently across modern browsers.
+
+Note: When we use CSS for layouts, quirks mode can mess up how our elements are displayed. Including <!DOCTYPE html> ensures your designs look consistent and correct across all browsers.
+
 HTML Tags:
     1. DOCTYPE
         This defines the document as an HTML5 document and tells the browser to render it correctly.
